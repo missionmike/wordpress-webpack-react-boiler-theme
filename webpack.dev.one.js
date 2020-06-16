@@ -2,7 +2,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
 
-const stagingDomain = "https://devon.missionmike.dev";
+const stagingDomain = "https://staging1.site";
 
 common.plugins.push(
 	new BrowserSyncPlugin({
