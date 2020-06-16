@@ -1,0 +1,66 @@
+/**
+ * Begin defaults
+ */
+body,
+html {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: $font-size;
+  color: $color-text;
+  overflow-x: hidden;
+}
+
+html * {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+ * Utilities
+ */
+.container-padded {
+  padding-left: 75px;
+  padding-right: 75px;
+
+  @include media-breakpoint-down(md) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+/**
+ * Typography
+ */
+p {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+
+  @include media-breakpoint-down(md) {
+    font-size: 1rem;
+  }
+}
+
+.text-darkest {
+  font-weight: 900;
+}
+
+.text-lightest {
+  font-weight: 200;
+}
+
+/**
+ * Links
+ */
+a,
+a:hover {
+  color: $primary-color;
+}

@@ -1,0 +1,19 @@
+/**
+ * Bootstrap v4.x.x
+ */
+@import "~bootstrap/scss/bootstrap";
+
+/**
+ * Setup
+ */
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "base";
+
+/**
+ * Components
+ */
+@import "components/header-nav";
+@import "components/body";
+@import "components/footer-nav";
