@@ -1,0 +1,45 @@
+{
+	"name": "WordPress-Webpack-React-Boiler",
+	"version": "1.0.0",
+	"description": "WordPress + Webpack + React Boilerplate installation",
+	"main": "",
+	"scripts": {
+		"watch-one": "webpack --watch --config webpack.dev.one.js",
+		"watch-two": "webpack --watch --config webpack.dev.two.js",
+		"build": "webpack --config webpack.prod.js",
+		"build-stats": "webpack --config webpack.prod.js --display-modules --json > stats.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.5.5",
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-react": "^7.8.3",
+		"@wordpress/scripts": "^7.1.2",
+		"babel-loader": "^8.0.6",
+		"browser-sync": "^2.26.7",
+		"browser-sync-webpack-plugin": "^2.2.2",
+		"css-loader": "^3.2.0",
+		"mini-css-extract-plugin": "^0.8.0",
+		"node-sass": "^4.13.1",
+		"optimize-css-assets-webpack-plugin": "^5.0.3",
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0",
+		"sass-loader": "^7.2.0",
+		"style-loader": "^1.0.0",
+		"terser-webpack-plugin": "^2.3.5",
+		"uglifyjs-webpack-plugin": "^2.2.0",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.8.0",
+		"webpack-merge": "^4.2.1"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.4.4",
+		"bootstrap": "^4.4.1",
+		"json-loader": "^0.5.7",
+		"popper.js": "^1.16.1"
+	}
+}
