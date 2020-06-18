@@ -19,4 +19,5 @@ WordPress theme utilizing Webpack development workflows and React support.
 
 1. ssh and cd to theme folder
 1. Run ```npm run watch --domain='https://your.staging.domain.com/'```
+    1. To simplify, create a shell script to run this line so you don't need to type in the staging domain each time.
 1. If all goes well, you should see 'Access URLs' available for Local and External. Visit these addresses to view the site. From here, editing any theme files (including .php) should prompt Webpack to refresh. See [browsersync options](https://www.browsersync.io/docs/options) for reference.
