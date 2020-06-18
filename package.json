@@ -4,8 +4,7 @@
 	"description": "WordPress + Webpack + React Boilerplate installation",
 	"main": "",
 	"scripts": {
-		"watch-one": "webpack --watch --config webpack.dev.one.js",
-		"watch-two": "webpack --watch --config webpack.dev.two.js",
+		"watch": "webpack --watch --config webpack.dev.js",
 		"build": "webpack --config webpack.prod.js",
 		"build-stats": "webpack --config webpack.prod.js --display-modules --json > stats.json"
 	},
