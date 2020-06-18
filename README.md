@@ -4,7 +4,7 @@ WordPress theme utilizing Webpack development workflows and React support.
 ## WordPress Installation
 *Important:* this theme is not production-ready. It is a bare-bones WordPress theme boilerplate for development. Consider it a jump-start to save time with Webpack configuration.
 
-1. Clone or download repo
+1. Clone or download repo, or create new repo from this template
 1. Rename folder 'WordPress-Webpack-React-Boiler' to a theme name of your choice
 1. Rename theme in style.css
 1. Activate theme via wp-admin for development
